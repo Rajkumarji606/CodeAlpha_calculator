@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cont">
+        <div class="calsi">
+            <h1>Calculator</h1>
+            <input type="text" id="inp" placeholder="0" readonly="">
+            <div class="btns">
+                <button onclick="cls()">AC</button>
+                <button onclick="cancel()">DEL</button>
+                <button onclick="AT_add('()')">( )</button>
+                <button onclick="AT_add('/')">/</button>
+                <button onclick="AT_add(1)">1</button>
+                <button onclick="AT_add(2)">2</button>
+                <button onclick="AT_add(3)">3</button>
+                <button onclick="AT_add('*')">*</button>
+                <button onclick="AT_add(4)">4</button>
+                <button onclick="AT_add(5)">5</button>
+                <button onclick="AT_add(6)">6</button>
+                <button onclick="AT_add('-')">-</button>
+                <button onclick="AT_add(7)">7</button>
+                <button onclick="AT_add(8)">8</button>
+                <button onclick="AT_add(9)">9</button>
+                <button onclick="AT_add('+')">+</button>
+                <button onclick="AT_add('%')">%</button>
+                <button onclick="AT_add(0)">0</button>
+                <button onclick="AT_add('.')">.</button>
+                <button onclick="exe()">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
